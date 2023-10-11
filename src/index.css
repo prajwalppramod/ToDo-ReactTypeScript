@@ -52,7 +52,7 @@ h1 {
   color: #000000;
   width:max-content;
   display: flex;
-  padding: 0 3rem;
+  padding-right: 2rem;
   flex-direction: row;
 }
 
@@ -65,6 +65,14 @@ h1 {
   border-color: #000000;
   position:static;
   right:40%;
+  float: right;
+  height: 30px;
+  font-size:small;
+}
+
+.deleteButton:hover{
+  background-color: #1a1a1a;
+  color: aliceblue;
 }
 
 input {

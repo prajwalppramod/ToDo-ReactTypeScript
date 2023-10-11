@@ -9,8 +9,8 @@ interface item {
 
 export const ToDoList: React.FC = () => {
   const [todos, setTodos] = useState<item[]>([
-    { id: 1, text: "Do the project with Samuel", completed: false, isDeleted: false },
-    { id: 2, text: "Go drive", completed: false, isDeleted: false },
+    { id: 1, text: "This is a long todo message", completed: false, isDeleted: false },
+    { id: 2, text: "Short todo", completed: false, isDeleted: false },
   ]);
   const [input, setInput] = useState<string>("");
 
